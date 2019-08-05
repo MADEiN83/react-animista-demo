@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-animista-demo/static/css/main.3785946b.chunk.css",
-    "main.js": "/react-animista-demo/static/js/main.a1e10d18.chunk.js",
-    "main.js.map": "/react-animista-demo/static/js/main.a1e10d18.chunk.js.map",
+    "main.css": "/react-animista-demo/static/css/main.11429028.chunk.css",
+    "main.js": "/react-animista-demo/static/js/main.cdde7f31.chunk.js",
+    "main.js.map": "/react-animista-demo/static/js/main.cdde7f31.chunk.js.map",
     "runtime~main.js": "/react-animista-demo/static/js/runtime~main.fbab4a48.js",
     "runtime~main.js.map": "/react-animista-demo/static/js/runtime~main.fbab4a48.js.map",
     "static/js/2.c2695c00.chunk.js": "/react-animista-demo/static/js/2.c2695c00.chunk.js",
     "static/js/2.c2695c00.chunk.js.map": "/react-animista-demo/static/js/2.c2695c00.chunk.js.map",
     "index.html": "/react-animista-demo/index.html",
-    "precache-manifest.7d7780fbb40c6fe81148edcaa07c7007.js": "/react-animista-demo/precache-manifest.7d7780fbb40c6fe81148edcaa07c7007.js",
+    "precache-manifest.2354961a0525e441ddf2de64a8dba513.js": "/react-animista-demo/precache-manifest.2354961a0525e441ddf2de64a8dba513.js",
     "service-worker.js": "/react-animista-demo/service-worker.js",
-    "static/css/main.3785946b.chunk.css.map": "/react-animista-demo/static/css/main.3785946b.chunk.css.map"
+    "static/css/main.11429028.chunk.css.map": "/react-animista-demo/static/css/main.11429028.chunk.css.map"
   }
 }
