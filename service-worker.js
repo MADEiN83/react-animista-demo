@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-animista-demo/precache-manifest.2354961a0525e441ddf2de64a8dba513.js"
+  "/react-animista-demo/precache-manifest.b182c00ddda8cea56577ed4e3dfb9e7d.js"
 );
 
 self.addEventListener('message', (event) => {
