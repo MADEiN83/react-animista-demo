@@ -9,13 +9,24 @@ import "./style.css";
 const CATEGORIES_KEYS = Object.keys(categories);
 const DEFAULT_CATEGORY_KEY: string = CATEGORIES_KEYS[0];
 
+type TYPE =
+  | "inherit"
+  | "initial"
+  | "normal"
+  | "reverse"
+  | "alternate"
+  | "alternate-reverse"
+  | undefined;
+
 const App: React.FC = () => {
   const [currentCategory, setCurrentCategory] = useState(DEFAULT_CATEGORY_KEY);
+  const [currentDirection, setCurrentDirection] = useState("normal");
   const [currentAnimation, setCurrentAnimation] = useState(
     AnimistaTypes.SCALE_UP_CENTER.toString()
   );
   const filteredAnimations: string[] = categories[currentCategory];
 
+  console.log("là", currentDirection);
   return (
     <main>
       <div className="floating-panel">
@@ -41,7 +52,17 @@ const App: React.FC = () => {
               </option>
             ))}
           </select>
+          &nbsp;
+          <select onChange={e => setCurrentDirection(e.target.value)}>
+            <option value="normal">normal</option>
+            <option value="reverse">reverse</option>
+            <option value="alternate">alternate</option>
+            <option value="alternate-reverse">alternate-reverse</option>
+            <option value="initial">initial</option>
+            <option value="inherit">inherit</option>
+          </select>
         </div>
+        {/* */}
         <div className="links">
           <a
             href="https://github.com/MADEiN83/react-animista"
@@ -74,8 +95,9 @@ const App: React.FC = () => {
 
       <div className="demo">
         <Animista
-          type={currentAnimation}
+          type={currentAnimation as AnimistaTypes}
           style={{ width: 100, height: 100, backgroundColor: "white" }}
+          direction={currentDirection as TYPE}
         >
           A
         </Animista>
