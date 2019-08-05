@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6d137b6f86ca9549779e8535261437f",
+    "revision": "982c47c4ea29d9968a500d3c860a28f0",
     "url": "/react-animista-demo/index.html"
   },
   {
-    "revision": "299f4faf2e4046855007",
+    "revision": "9c153ebfaf06c60a2f41",
     "url": "/react-animista-demo/static/css/main.11429028.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-animista-demo/static/js/2.c2695c00.chunk.js"
   },
   {
-    "revision": "299f4faf2e4046855007",
-    "url": "/react-animista-demo/static/js/main.a052c847.chunk.js"
+    "revision": "9c153ebfaf06c60a2f41",
+    "url": "/react-animista-demo/static/js/main.658f92ab.chunk.js"
   },
   {
     "revision": "358dbb83876c18c556fa",
