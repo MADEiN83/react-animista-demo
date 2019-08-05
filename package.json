@@ -2,6 +2,7 @@
   "name": "react-animista-demo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://MADEiN83.github.io/react-animista-demo",
   "dependencies": {
     "@types/jest": "24.0.16",
     "@types/node": "12.6.8",
@@ -16,8 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,5 +33,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
